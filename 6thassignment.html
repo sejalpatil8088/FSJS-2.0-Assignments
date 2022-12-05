@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Universal Selector:-</h2>
+    <p>The universal selector (*) selects all HTML elements on the page.<br> 
+        Rather than selecting elements of a specific type , the universal selector quite simply matches the name of any element type.<br>
+    in universal selector we can use * attribute</p>
+   <h2 class="Individual">Individual Selector:-</h2>
+   <p class="Individual">Individual selector is use to address any element.<br>
+      e.g:div ,span etc.
+   </p>
+   <h2 class="container">class & id Selector:-</h2>
+   <p class="container">class selector select elements with specific class attribute. To select elementswith a specific class write a period (.) character,followed by the nameof the class. </p>
+   <p class="container">The id selector uses the id attribute of an HTML element to select a specific element.The id of an element should be unique within a page ,so the id selector is used to select one unique element.</p>
+   <h2 class="combined">Combined selector</h2>
+       <p class="combined">Combined Selector is use to select elments with one and more attributes. </p>
+   <div class="direct-child">
+       <h2 class="universal">Direct Child:-</h2> 
+       <p>It selects any HTML element targeted by the selector written after the greater than character,which is a direct child of the any HTML elment targeted by the Selectorwritten before the greater than character.</p>
+    </div>
+   <h2 class="sibling">Sibling Selector:-</h2>
+    <p class="sibling-selector">The general sibling combinator (~) sepreate two selectors and matches all iteration of the second element ,that are following the first element and are children of the same parent element.</p>
+       <ul>
+        <li class="test">test1</li>
+        <li>test2</li>
+        <li>test3</li>
+        <li>test4</li>
+      </ul>
+   </div>
+</body>
+</html>

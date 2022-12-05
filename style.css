@@ -1,0 +1,38 @@
+  body{
+    background-color:black;
+    color:white;
+}
+* {
+    background-color:black;
+    color:pink;
+}
+.Individual{
+    background-color: aqua;
+    color:black;
+}
+.container{
+    background-color: orange;
+    color:black;
+}
+.combined{
+    background-color:pink;
+    color: black;
+}
+.direct-child div > p {
+    background-color: orangered;
+    color:black;
+}
+.sibling + p {
+    background-color: blue;
+    color:white;
+}
+.test{
+    background-color: azure;
+    color:black;
+}
+
+
+  
+
+
+
